@@ -1,7 +1,7 @@
-com/ea/SpringStart/pages/BasePage.class
-com/ea/SpringStart/SimpleTestNGTest.class
-com/ea/SpringStart/pages/LoginPage.class
-com/ea/SpringStart/PageObjectTest.class
-com/ea/SpringStart/pages/HomePage.class
-com/ea/SpringStart/SpringTestNGTests.class
-com/ea/SpringStart/SpringStartApplicationTests.class
+com\ea\SpringStart\SpringStartApplicationTests.class
+com\ea\SpringStart\pages\LoginPage.class
+com\ea\SpringStart\SimpleTestNGTest.class
+com\ea\SpringStart\pages\HomePage.class
+com\ea\SpringStart\SpringTestNGTests.class
+com\ea\SpringStart\PageObjectTest.class
+com\ea\SpringStart\pages\BasePage.class

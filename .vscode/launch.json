@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "type": "java",
+      "name": "Attach to Surefire (port 5005)",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005
+    },
+    {
+      "type": "java",
+      "name": "Launch Spring Boot (SpringStartApplication)",
+      "request": "launch",
+      "mainClass": "com.ea.SpringStart.SpringStartApplication",
+      "projectName": "SpringStart",
+      "vmArgs": "-Dbrowser=Chrome"
+    },
+    {
+      "type": "java",
+      "name": "Attach to Java Process...",
+      "request": "attach",
+      "processId": "${command:PickProcess}"
+    }
+  ]
+}
+
